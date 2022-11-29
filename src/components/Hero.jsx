@@ -14,13 +14,13 @@ const Hero = () => {
         />
         <div className="flex">
           <p
-            className={`${styles.heading2} ${styles.flexCenter} absolute top-[132px] xs:h-[30%] pl-4 xs:pl-4 leading-6 text-white stroke`}
+            className={`${styles.heading2} ${styles.flexCenter} absolute top-[125px] xs:h-[30%] pl-4 xs:pl-4 leading-6 text-white stroke`}
           >
             "Branch out with us and reach more <br /> leads"
           </p>
         </div>
         <div className="wrapper xs:w-[20px]">
-          <div className="link_wrapper absolute right-[-40px] xl:right-[-85px] xl:top-[30px] xs:top-[55px] xs:right-[-80px] top-[15px]">
+          <div className="link_wrapper absolute right-[-40px] xl:right-[-85px] xl:top-[30px] xs:top-[55px] xs:right-[-80px] top-[35px]">
             <a href="#contact" className="link">
               Get Started
             </a>
