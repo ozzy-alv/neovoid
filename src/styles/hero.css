@@ -1,0 +1,134 @@
+.stroke {
+  text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.801);
+  letter-spacing: 3px;
+  transition: 700ms ease;
+  font-variation-settings: 'wght' 311;
+}
+
+.stroke:hover {
+  font-variation-settings: 'wght' 582;
+  letter-spacing: 1px;
+}
+
+.header_hero img {
+  width: 100vw;
+  height: 50vh;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.link_wrapper {
+  position: relative;
+}
+
+.link {
+  display: block;
+  width: 90px;
+  height: 40px;
+  line-height: 38px;
+  font-size: 10px;
+  font-style: italic;
+  border-radius: 0.125rem;
+  font-weight: normal;
+  text-decoration: none;
+  background: #fff;
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 2px solid rgb(205, 205, 205);
+  transition: all 0.35s;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  border: 3px solid transparent;
+  position: absolute;
+  transform: rotate(45deg);
+  right: 0px;
+  top: 8px;
+  z-index: -1;
+  transition: all 0.35s;
+}
+
+.icon svg {
+  width: 15px;
+  position: absolute;
+  top: calc(50% - 8px);
+  left: calc(50% - 8px);
+  transform: rotate(-45deg);
+  fill: #fff;
+  transition: all 0.35s;
+}
+
+.link:hover {
+  width: 100px;
+  border: 2px solid #2ecc4b;
+  background: transparent;
+  color: #fff;
+}
+
+.link:hover + .icon {
+  border: 2px solid #2ecc6b;
+  right: -20%;
+}
+
+@media screen and (min-width: 768px) {
+  .link {
+    width: 180px;
+    height: 60px;
+    font-size: 22px;
+    line-height: 58px;
+  }
+  .link:hover {
+    width: 200px;
+  }
+
+  .link:hover + .icon {
+    border: 2px solid #2ecc48;
+    right: -20%;
+  }
+  .icon {
+    width: 50px;
+    height: 50px;
+  }
+  .icon svg {
+    width: 30px;
+    top: calc(50% - 15px);
+    left: calc(50% - 15px);
+  }
+}
+
+@media screen and (min-width: 475px) {
+  .link {
+    width: 190px;
+    height: 60px;
+    font-size: 22px;
+    line-height: 58px;
+  }
+  .link:hover {
+    width: 200px;
+  }
+
+  .link:hover + .icon {
+    border: 2px solid #2ecc48;
+    right: -20%;
+  }
+  .icon {
+    width: 50px;
+    height: 50px;
+  }
+  .icon svg {
+    width: 30px;
+    top: calc(50% - 15px);
+    left: calc(50% - 15px);
+  }
+}
