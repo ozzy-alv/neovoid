@@ -39,7 +39,7 @@ export const features = [
     icon: send,
     title: 'Results',
     content:
-      'The main focus for us is to do the work and your main focus is too see the results.',
+      'The main focus for us is to do the work and your main focus is to see the results.',
   },
 ];
 
@@ -50,23 +50,23 @@ export const footerLinks = [
     links: [
       {
         name: 'Content',
-        link: 'https://www.neovoidmarketing.com/hero/',
+        id: '#home',
       },
       {
         name: 'About',
-        link: 'https://www.neovoidmarketing.com/about/',
+        id: '#about',
       },
       {
         name: 'Service',
-        link: 'https://www.neovoidmarketing.com/service/',
+        id: '#service',
       },
       {
         name: 'Explore',
-        link: 'https://www.neovoidmarketing.com/contact/',
+        id: '#contact',
       },
       {
         name: 'Terms & Services',
-        link: 'https://www.neovoidmarketing.com/terms-and-services/',
+        id: 'https://www.termsfeed.com/live/8c9833ef-cb99-4813-bee0-ebcdc6d3978f',
       },
     ],
   },

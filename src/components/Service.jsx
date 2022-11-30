@@ -17,8 +17,8 @@ const Service = () => {
           Our service starts from the moment we contact you. First we schedule a
           small meeting to go make sure you are comfortable with us. We ask a
           few questions about your business to find out what may be preventing
-          growth. Then, the best part. We find you a solution by discussing
-          package deals...
+          growth. Then, the best part the follow up. We delegate a solution by
+          discussing package deals our work flow looks like the following...
         </p>
         <div className="pl-[50px] xs:pl-[210px] xl:pl-0 mb-[80px] ">
           <img
