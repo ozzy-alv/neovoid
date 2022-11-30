@@ -4,7 +4,7 @@ import instagram from './instagram.svg';
 import menu from './menu.svg';
 import logo from './NeoVoid_logo.png';
 import twitter from './twitter.svg';
-import send from './send.svg';
+import glass from './glass.svg';
 import shield from './shield.svg';
 import star from './star.svg';
 import hero from './hero_bg.png';
@@ -25,7 +25,7 @@ export {
   menu,
   logo,
   twitter,
-  send,
+  glass,
   shield,
   star,
   hero,

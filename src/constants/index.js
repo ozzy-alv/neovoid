@@ -1,4 +1,4 @@
-import { facebook, instagram, twitter, shield, star, send } from '../assets';
+import { facebook, instagram, twitter, shield, star, glass } from '../assets';
 
 export const navLinks = [
   {
@@ -36,7 +36,7 @@ export const features = [
   },
   {
     id: 'feature-3',
-    icon: send,
+    icon: glass,
     title: 'Results',
     content:
       'The main focus for us is to do the work and your main focus is to see the results.',
